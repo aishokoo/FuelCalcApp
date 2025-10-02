@@ -38,7 +38,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var btnCoalCalculator: Button
     private lateinit var btnOilCalculator: Button
 
-    // Navigation buttons
     private lateinit var btnPractical1_1: Button
     private lateinit var btnPractical1_2: Button
 
@@ -50,7 +49,7 @@ class MainActivity : AppCompatActivity() {
         initializeViews()
         setupClickListeners()
         setupNavigationListeners()
-        showCoalCalculator() // Default calculator
+        showCoalCalculator()
     }
 
     private fun initializeViews() {
