@@ -10,7 +10,6 @@ import com.google.android.material.card.MaterialCardView
 import com.google.android.material.textfield.TextInputEditText
 class MainActivity : AppCompatActivity() {
 
-    // Coal calculator views
     private lateinit var Hinput: TextInputEditText
     private lateinit var Cinput: TextInputEditText
     private lateinit var Sinput: TextInputEditText
@@ -21,7 +20,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var saveButton: Button
     private lateinit var clearButton: Button
 
-    // Oil calculator views
     private lateinit var HinputOil: TextInputEditText
     private lateinit var CinputOil: TextInputEditText
     private lateinit var SinputOil: TextInputEditText
@@ -33,7 +31,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var saveButtonOil: Button
     private lateinit var clearButtonOil: Button
 
-    // Shared views
     private lateinit var outputFuel: TextView
     private lateinit var resultsCard: MaterialCardView
     private lateinit var coalCalculatorCard: MaterialCardView
